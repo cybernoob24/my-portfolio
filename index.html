@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <!-- --------------Cursor------------------------- -->
+<div class="cursor-dot" data-cursor-dot></div>
+<div class="cursor-outline" data-cursor-outline></div>
+<!-- -------------------------------------------------- -->
+
+<!-- ---------------------Header----------------------- -->
+<div id="header">
+    <div class="container">
+        <nav>
+         <img src="./images/s2_logo.png" class="logo">
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+         </ul>
+        </nav>
+        <div class="header-text">
+            <p>WebPage Developer</p>
+            <h1>Hi I'm <span>Shivam</span><br>From Haryana</h1>    
+        </div>
+    </div>
+</div>
+<!-- --------------------------------------------------- -->
+
+<!-- -----------------About--------------------------------->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I'm Shivam, a passionate webpage developer and Programmer. With continue learning of experience, I specialize in webpage development, backend programming in python and c++. Currently pursuing B.sc(Hons) Computer Science from Kirorimal College, University of Delhi. Beyond work, I enjoy Sports like Volleyball, Badminton, Basketball etc. and believe in Physical Fitness. Committed to growth and innovation, I'm eager to contribute to my skills. Connect with me for insights and more about me..</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills" >
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Webpage Designer</span><br>Web app Development</li>
+                        <li><span>Programmer</span><br>Making python and c++ programs</li>
+
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2023-Current</span><br>Learning python Programming and Computer System Architecture</li>
+                                <li><span>2023-Current</span><br>Project holding in frontend Development</li>
+                                <li><span>2022-Current</span><br>Learning Data Structure and Frontend Development.</li>
+                            </ul>
+
+                                <div class="tab-contents" id="Education">
+                                    <ul>
+                                        <li><span>10th Class</span><br>Roseland Internation School. 1st Std</li>
+                                        <li><span>12th Class</span><br>Roseland Internation School. 1st Std With Science Stream</li>
+                                        <li><span>Graduation</span><br>B.sc(Hons) Computer Science from Kirorimal College</li>
+                                    </ul>
+
+                    </ul>   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------------------------------------------- -->
+</body>
+</html>
